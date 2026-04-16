@@ -1,182 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Growie | Small savings. Big future.</title>
     <meta name="description" content="Growie helps you automatically save your spare change and watch your money grow seamlessly.">
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Google Fonts: Outfit for a modern fintech look -->
+    <!-- Google Fonts: Outfit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Feather Icons for minimalist vector icons -->
+    <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container nav-content">
-            <a href="#" class="logo" id="logo">
-                <i data-feather="leaf" class="logo-icon"></i>
-                Growie
-            </a>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#features">Features</a>
-                <a href="#about">About</a>
-                <a href="#login" class="nav-login">Login</a>
-                <a href="#get-started" class="btn btn-primary nav-cta">Get Started</a>
-            </div>
-            <!-- Mobile Menu Toggle -->
-            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
-                <i data-feather="menu"></i>
-            </button>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero" id="home">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <div class="badge">
-                    <span class="pulse-dot"></span> New: Connect your bank safely
-                </div>
-                <h1>Small savings.<br><span class="highlight">Big future.</span></h1>
-                <p>Automatically save your spare change and watch your money grow with our smart tracking and automated growth algorithms.</p>
-                <div class="hero-actions">
-                    <a href="#get-started" class="btn btn-primary btn-large">Get Started <i data-feather="arrow-right"></i></a>
-                    <a href="#about" class="btn btn-outline btn-large">Learn More</a>
-                </div>
-                <div class="stats">
-                    <div class="stat-item">
-                        <strong>100k+</strong>
-                        <span>Active Users</span>
-                    </div>
-                    <div class="stat-item">
-                        <strong>$5M+</strong>
-                        <span>Saved Weekly</span>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-wrapper">
-                    <img src="C:/Users/JAYASRI/.gemini/antigravity/brain/d8866608-4f26-4544-a497-49a7cf1291d8/growie_illustration_1776095224075.png" alt="Savings Growth Illustration" class="illustration">
-                    <div class="floating-card fl-1">
-                        <i data-feather="trending-up" class="green-icon"></i>
-                        <div>
-                            <span>Daily Growth</span>
-                            <strong>+1.4%</strong>
-                        </div>
-                    </div>
-                    <div class="floating-card fl-2">
-                        <i data-feather="check-circle" class="green-icon"></i>
-                        <div>
-                            <span>Goal Reached</span>
-                            <strong>Vacation Fund</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-header">
-                <h2>Features designed for <span class="highlight">growth</span></h2>
-                <p>We make saving effortless so you can focus on enjoying life.</p>
-            </div>
-            <div class="features-grid">
-                <!-- Feature 1 -->
-                <div class="feature-card">
-                    <div class="icon-box">
-                        <i data-feather="pie-chart"></i>
-                    </div>
-                    <h3>Round-Up Savings</h3>
-                    <p>Every time you make a purchase, we round up to the nearest dollar and invest the difference automatically.</p>
-                </div>
-                <!-- Feature 2 -->
-                <div class="feature-card">
-                    <div class="icon-box">
-                        <i data-feather="activity"></i>
-                    </div>
-                    <h3>Smart Tracking</h3>
-                    <p>Visualize your progress with intuitive dashboards. See exactly where your money goes and how fast it grows.</p>
-                </div>
-                <!-- Feature 3 -->
-                <div class="feature-card">
-                    <div class="icon-box">
-                        <i data-feather="zap"></i>
-                    </div>
-                    <h3>Automated Growth</h3>
-                    <p>Your money shouldn't sit idle. We seamlessly move your savings into high-yield avenues to outpace inflation.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta" id="cta">
-        <div class="container cta-container">
-            <div class="cta-content">
-                <h2>Ready to start growing?</h2>
-                <p>Join thousands of others building a secure financial future today.</p>
-                <div class="cta-actions">
-                    <a href="#" class="btn btn-primary btn-large cta-shadow">Create Free Account</a>
-                </div>
-            </div>
-            <div class="cta-circles"></div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <a href="#" class="logo">
-                    <i data-feather="leaf" class="logo-icon"></i>
-                    Growie
-                </a>
-                <p>Empowering a new generation to reach their financial goals without the stress.</p>
-                <div class="social-links">
-                    <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
-                    <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
-                </div>
-            </div>
-            <div class="footer-links-group">
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <a href="#">About Us</a>
-                    <a href="#">Careers</a>
-                    <a href="#">Press</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <a href="#">Blog</a>
-                    <a href="#">Help Center</a>
-                    <a href="#">Financial Guides</a>
-                    <a href="#">Community</a>
-                </div>
-                <div class="footer-col">
-                    <h4>Legal</h4>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
-                </div>
-            </div>
-        </div>
-        <div class="container footer-bottom">
-            <p>&copy; 2026 Growie Inc. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
